@@ -1,6 +1,6 @@
 terrraform {
 
 backend "gcs"
-bucket = "Bucket_name"
+bucket = "terraformbucketoo1"
 prefix = "terrform/state"
 }
