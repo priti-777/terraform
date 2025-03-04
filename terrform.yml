@@ -1,3 +1,13 @@
+ - name: 'Terraform'
+
+   on:
+      push:
+       branches: ["master"]
+       pull_request:
+
+       permission:
+          contents: read
+
 jobs:
    terrform:
    name: 'terraform'
